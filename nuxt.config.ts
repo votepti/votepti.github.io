@@ -7,7 +7,16 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@vite-pwa/nuxt',
   ],
+  css: [
+    '@/assets/css/main.css',
+  ],
 
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
