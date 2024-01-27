@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@vite-pwa/nuxt',
   ],
+
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
