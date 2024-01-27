@@ -3,20 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/sitemap',
     '@nuxtjs/eslint-module',
     '@vite-pwa/nuxt',
   ],
-  css: [
-    '@/assets/css/main.css',
-  ],
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
