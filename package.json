@@ -21,5 +21,8 @@
   },
   "dependencies": {
     "@antfu/eslint-config-vue": "^0.43.1"
+  },
+  "resolutions": {
+    "vue": "3.4.14"
   }
 }
