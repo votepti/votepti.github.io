@@ -10,8 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/sitemap": "^5.0.5",
+    "@nuxtjs/tailwindcss": "^6.11.1",
+    "@vite-pwa/nuxt": "^0.4.0",
     "nuxt": "^3.9.3",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@antfu/eslint-config-vue": "^0.43.1"
   }
 }
