@@ -6,6 +6,7 @@ export default function () {
       englishName: 'peacook',
       urduName: 'مور',
       location: 'na163',
+      locationFull: 'NA-163 (Bahawalnagar-lV)',
       name: 'Shaukat Basra',
       whatsapp: 'https://whatsapp.com/channel/0029VaKAL11GpLHVYoycV63d',
     },
